@@ -4,7 +4,7 @@ const canvas = document.querySelector("canvas")
 const target = canvas.getContext("2d")
 
 target.lineCap = "round"
-target.strokeStyle = "rgba(0, 0, 0, 0.1)"
+target.strokeStyle = "rgba(255, 255, 255, 0.1)"
 
 const step = { x: canvas.width / 3, y: canvas.height / 2 }
 const cell = { x: step.x * 0.5, y: step.y * 0.5 }
